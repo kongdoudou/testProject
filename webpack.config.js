@@ -1,6 +1,5 @@
 let path = require("path");
 let HtmlWebpackPlugin = require("html-webpack-plugin");
-console.log(path.resolve(__dirname,"dist"));
 module.exports = {
     //文件入口
     entry:'./src/main.js',
